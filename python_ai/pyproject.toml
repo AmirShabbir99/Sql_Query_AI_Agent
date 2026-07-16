@@ -1,0 +1,14 @@
+[project]
+name = "sql-query-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.139.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.4.9",
+    "langchain-mistralai>=1.1.6",
+    "sqlalchemy>=2.0.51",
+    "streamlit>=1.59.2",
+]
